@@ -420,8 +420,8 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills-img {
-  min-width: 30vh;
-  min-height: 30vh;
+  width: 25vh;
+  height: 25vh;
 }
 
 .skills .progress {
@@ -522,6 +522,60 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.tower {
+  height: 25vh;
+  width: 30vh;
+  border-radius: 5px;
+}
+
+.tower:hover {
+  color: #1f5297;
+  text-shadow: wheat 2px 1px;
+  background-image: url("../img/WorksBG/TowerBG.png");
+  background-size: contain;
+  transform: scale(1.1);
+}
+
+.keepr {
+  height: 25vh;
+  width: 30vh;
+  border-radius: 5px;
+}
+
+.keepr:hover {
+  color: #1f5297;
+  text-shadow: wheat 2px 1px;
+  background-image: url("../img/WorksBG/KeeprBG.png");
+  background-size: contain;
+  transform: scale(1.1);
+}
+
+.network {
+  height: 25vh;
+  width: 30vh;
+  border-radius: 5px;
+}
+
+.network:hover {
+  color: #1f5297;
+  text-shadow: wheat 2px 1px;
+  background-image: url("../img/WorksBG/NetworkBG.png");
+  background-size: contain;
+  transform: scale(1.1);
+}
+
+.portfolio-img {
+  height: 15vh;
+  width: 15vh;
+  display: cover;
+}
+
+.portfolio-img-network {
+  height: 9vh;
+  width: 30vh;
+  display: cover;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -582,7 +636,7 @@ section {
   opacity: 1;
   left: 0;
   right: 0;
-  bottom: -60px;
+  bottom: -100px;
   z-index: 3;
   position: absolute;
   transition: all ease-in-out 0.3s;
@@ -835,6 +889,7 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
 .contact {
   padding-bottom: 130px;
 }
