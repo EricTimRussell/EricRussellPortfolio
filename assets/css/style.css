@@ -526,13 +526,13 @@ section {
   height: 25vh;
   width: 30vh;
   border-radius: 5px;
+  background-image: url("../img/WorksBG/TowerBG.png");
+  background-size: contain;
 }
 
 .tower:hover {
   color: #1f5297;
   text-shadow: wheat 2px 1px;
-  background-image: url("../img/WorksBG/TowerBG.png");
-  background-size: contain;
   transform: scale(1.1);
 }
 
@@ -540,13 +540,13 @@ section {
   height: 25vh;
   width: 30vh;
   border-radius: 5px;
+  background-image: url("../img/WorksBG/KeeprBG.png");
+  background-size: contain;
 }
 
 .keepr:hover {
   color: #1f5297;
   text-shadow: wheat 2px 1px;
-  background-image: url("../img/WorksBG/KeeprBG.png");
-  background-size: contain;
   transform: scale(1.1);
 }
 
@@ -554,13 +554,13 @@ section {
   height: 25vh;
   width: 30vh;
   border-radius: 5px;
+  background-image: url("../img/WorksBG/NetworkBG.png");
+  background-size: contain;
 }
 
 .network:hover {
   color: #1f5297;
   text-shadow: wheat 2px 1px;
-  background-image: url("../img/WorksBG/NetworkBG.png");
-  background-size: contain;
   transform: scale(1.1);
 }
 
