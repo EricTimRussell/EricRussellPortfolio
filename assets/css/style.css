@@ -293,6 +293,10 @@ h6 {
   }
 }
 
+.hero-title {
+  padding-left: 5rem;
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -548,6 +552,20 @@ section {
 }
 
 .keepr:hover {
+  color: #1f5297;
+  text-shadow: wheat 2px 1px;
+  transform: scale(1.1);
+}
+
+.riskier {
+  height: 25vh;
+  width: 30vh;
+  border-radius: 5px;
+  background-image: url("../img/RiskierBG.png");
+  background-size: cover;
+}
+
+.riskier:hover {
   color: #1f5297;
   text-shadow: wheat 2px 1px;
   transform: scale(1.1);
