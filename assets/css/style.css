@@ -294,7 +294,7 @@ h6 {
 }
 
 .hero-title {
-  padding-left: 5rem;
+  padding-left: 3rem;
 }
 
 /*--------------------------------------------------------------
@@ -561,7 +561,7 @@ section {
   height: 25vh;
   width: 30vh;
   border-radius: 5px;
-  background-image: url("../img/RiskierBG.png");
+  background-image: url("../img/WorksBG/RiskierBG.png");
   background-size: cover;
 }
 
