@@ -428,7 +428,7 @@ section {
 --------------------------------------------------------------*/
 .skills-img {
   width: 25vh;
-  height: 25vh;
+  max-height: 30vh;
 }
 
 .skills .progress {
@@ -463,6 +463,11 @@ section {
   height: 10px;
   transition: 0.9s;
   background-color: #149ddd;
+}
+
+.nuxt {
+  min-height: 20vh;
+  min-width: 30vh;
 }
 
 /*--------------------------------------------------------------
