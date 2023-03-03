@@ -424,11 +424,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills-img {
-  width: 25vh;
-  max-height: 30vh;
+  width: 20rem;
+  max-height: 25rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .skills-img {
+    margin-bottom: 0%;
+  }
 }
 
 .skills .progress {
@@ -466,8 +473,8 @@ section {
 }
 
 .nuxt {
-  min-height: 20vh;
-  min-width: 30vh;
+  height: 13rem;
+  width: 15rem;
 }
 
 /*--------------------------------------------------------------
