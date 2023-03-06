@@ -538,6 +538,7 @@ section {
   border: 2px solid #1f5297;
 }
 
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
@@ -547,6 +548,7 @@ section {
   border-radius: 5px;
   background-image: url("../img/WorksBG/TowerBG.png");
   background-size: contain;
+  border: 3px solid blue;
 }
 
 .tower:hover {
@@ -561,6 +563,7 @@ section {
   border-radius: 5px;
   background-image: url("../img/WorksBG/KeeprBG.png");
   background-size: contain;
+  border: 3px solid beige;
 }
 
 .keepr:hover {
@@ -575,6 +578,7 @@ section {
   border-radius: 5px;
   background-image: url("../img/WorksBG/RiskierBG.png");
   background-size: cover;
+  border: 3px solid olivedrab;
 }
 
 .riskier:hover {
@@ -589,6 +593,7 @@ section {
   border-radius: 5px;
   background-image: url("../img/WorksBG/NetworkBG.png");
   background-size: contain;
+  border: 3px solid cyan;
 }
 
 .network:hover {
